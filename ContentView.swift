@@ -134,7 +134,7 @@ struct ContentView: View {
                 .padding(.horizontal)
                 .padding(.bottom)
             }
-            // ✅ Add missing alerts & sheet
+            // alerts & sheet
             .alert("Log Relapse", isPresented: $showingRelapseConfirmation) {
                 Button("Cancel", role: .cancel) {}
                 Button("Log", role: .destructive) {
